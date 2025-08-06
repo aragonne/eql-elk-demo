@@ -1,0 +1,14 @@
+2025-08-06 11:38:59.205  INFO main c.e.e.EcommerceElkDemoApplication : Starting EcommerceElkDemoApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 61381 (/home/ael/Documents/HenixDev/forge-squash/formation/elasticksearch-demo/my-ecommerce-app/target/ecommerce-elk-demo-0.0.1-SNAPSHOT.jar started by ael in /home/ael/Documents/HenixDev/forge-squash/formation/elasticksearch-demo)
+2025-08-06 11:38:59.209  INFO main c.e.e.EcommerceElkDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-06 11:39:04.306  INFO main o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-08-06 11:39:04.307  INFO main o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-06 11:39:04.523  INFO main o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-08-06 11:39:07.612  INFO main com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-08-06 11:39:08.390  INFO main com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-08-06 11:39:08.395  INFO main com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-08-06 11:39:08.490  WARN main org.hibernate.orm.deprecation : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-06 11:39:13.797  WARN main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-06 11:39:16.755  INFO main c.e.e.EcommerceElkDemoApplication : Started EcommerceElkDemoApplication in 19.913 seconds (process running for 21.214)
+2025-08-06 13:54:04.324  INFO http-nio-8080-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 14:51:49.845  INFO SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-08-06 14:51:49.848  INFO SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.

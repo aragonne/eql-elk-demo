@@ -1,0 +1,96 @@
+2025-08-05 19:12:09.941  INFO main c.e.e.EcommerceElkDemoApplication : Starting EcommerceElkDemoApplication v0.0.1-SNAPSHOT using Java 21.0.8 with PID 147763 (/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/target/ecommerce-elk-demo-0.0.1-SNAPSHOT.jar started by ael in /home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app)
+2025-08-05 19:12:09.946  INFO main c.e.e.EcommerceElkDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-08-05 19:12:13.347  INFO main o.a.catalina.core.StandardService : Starting service [Tomcat]
+2025-08-05 19:12:13.347  INFO main o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-05 19:12:13.468  INFO main o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2025-08-05 19:12:15.045  INFO main com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2025-08-05 19:12:15.549  INFO main com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-08-05 19:12:15.553  INFO main com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2025-08-05 19:12:15.630  WARN main org.hibernate.orm.deprecation : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-05 19:12:19.707  WARN main o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-05 19:12:21.320  INFO main c.e.e.EcommerceElkDemoApplication : Started EcommerceElkDemoApplication in 13.142 seconds (process running for 14.064)
+2025-08-05 19:12:42.536  INFO http-nio-8080-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-05 19:12:42.693  INFO http-nio-8080-exec-2 c.e.e.service.DataGeneratorService : Initializing sample products...
+2025-08-05 19:12:42.863  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Tablet Kub-Terry
+2025-08-05 19:12:42.998  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Tablet Willms-Bradtke
+2025-08-05 19:12:43.003  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Headphones Collins Group
+2025-08-05 19:12:43.008  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Camera Boehm, Schroeder and Koss
+2025-08-05 19:12:43.013  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Headphones Upton-Hettinger
+2025-08-05 19:12:43.019  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Jacket fuchsia
+2025-08-05 19:12:43.025  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Jacket mint green
+2025-08-05 19:12:43.029  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Jacket indigo
+2025-08-05 19:12:43.034  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Jeans turquoise
+2025-08-05 19:12:43.039  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Jeans lime
+2025-08-05 19:12:43.058  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: The After Many a Summer Dies the Swan
+2025-08-05 19:12:43.063  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: The Many Waters
+2025-08-05 19:12:43.068  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: The A Time to Kill
+2025-08-05 19:12:43.072  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: The Look to Windward
+2025-08-05 19:12:43.077  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: The The Needle's Eye
+2025-08-05 19:12:43.082  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Lamp violet
+2025-08-05 19:12:43.086  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Sofa plum
+2025-08-05 19:12:43.091  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Sofa purple
+2025-08-05 19:12:43.096  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Sofa gold
+2025-08-05 19:12:43.101  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Chair salmon
+2025-08-05 19:12:43.106  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Running Equipment
+2025-08-05 19:12:43.111  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Yoga Ball
+2025-08-05 19:12:43.116  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Yoga Equipment
+2025-08-05 19:12:43.121  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Running Ball
+2025-08-05 19:12:43.127  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Running Ball
+2025-08-05 19:12:43.133  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: LEGO blue
+2025-08-05 19:12:43.142  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Puzzle yellow
+2025-08-05 19:12:43.147  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: LEGO sky blue
+2025-08-05 19:12:43.154  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Puzzle olive
+2025-08-05 19:12:43.160  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Doll black
+2025-08-05 19:12:43.167  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Perfume Koch and Sons
+2025-08-05 19:12:43.173  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Foundation Feest, Ruecker and Ondricka
+2025-08-05 19:12:43.180  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Lipstick Gerhold, Ondricka and Renner
+2025-08-05 19:12:43.186  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Shampoo Harber-O'Connell
+2025-08-05 19:12:43.192  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Shampoo Schinner, Effertz and Lind
+2025-08-05 19:12:43.197  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Oil for BMW
+2025-08-05 19:12:43.202  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Oil for Ford
+2025-08-05 19:12:43.207  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Tire for BMW
+2025-08-05 19:12:43.211  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Oil for Ford
+2025-08-05 19:12:43.216  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Saving new product: Oil for Ford
+2025-08-05 19:12:43.221  INFO http-nio-8080-exec-2 c.e.e.service.DataGeneratorService : Sample products initialized successfully
+2025-08-05 19:12:45.261  INFO http-nio-8080-exec-3 c.e.e.service.DataGeneratorService : Simulating 20 user requests...
+2025-08-05 19:12:45.264  INFO ForkJoinPool.commonPool-worker-2 c.e.ecommerce.service.ProductService : Fetching products by category: Toys
+2025-08-05 19:12:45.270  INFO ForkJoinPool.commonPool-worker-3 c.e.ecommerce.service.ProductService : Fetching product with id: 34
+2025-08-05 19:12:45.274  INFO ForkJoinPool.commonPool-worker-5 c.e.ecommerce.service.ProductService : Fetching all products
+2025-08-05 19:12:45.276  INFO ForkJoinPool.commonPool-worker-6 c.e.ecommerce.service.ProductService : Fetching products by category: Beauty
+2025-08-05 19:12:45.277  INFO ForkJoinPool.commonPool-worker-7 c.e.ecommerce.service.ProductService : Fetching products by category: Toys
+2025-08-05 19:12:45.455  INFO ForkJoinPool.commonPool-worker-4 c.e.ecommerce.service.OrderService : Creating order for customer: chantelle.predovic@hotmail.com - Product: 21 - Quantity: 4
+2025-08-05 19:12:45.456  INFO ForkJoinPool.commonPool-worker-4 c.e.ecommerce.service.ProductService : Fetching product with id: 21
+2025-08-05 19:12:45.532  INFO ForkJoinPool.commonPool-worker-4 c.e.ecommerce.service.ProductService : Updating stock for product 21: new stock = 68
+2025-08-05 19:12:45.564  INFO ForkJoinPool.commonPool-worker-4 c.e.ecommerce.service.OrderService : Order created successfully: 1
+2025-08-05 19:12:45.701  INFO ForkJoinPool.commonPool-worker-5 c.e.ecommerce.service.ProductService : Fetching product with id: 7
+2025-08-05 19:12:45.907  INFO ForkJoinPool.commonPool-worker-3 c.e.ecommerce.service.ProductService : Searching products with query: Enormous
+2025-08-05 19:12:46.044  INFO ForkJoinPool.commonPool-worker-6 c.e.ecommerce.service.ProductService : Fetching product with id: 6
+2025-08-05 19:12:46.187  INFO ForkJoinPool.commonPool-worker-4 c.e.ecommerce.service.OrderService : Processing payment for order 21 with method: CREDIT_CARD
+2025-08-05 19:12:46.197 ERROR ForkJoinPool.commonPool-worker-4 c.e.ecommerce.service.OrderService : Order not found for payment: 21
+2025-08-05 19:12:46.282  INFO ForkJoinPool.commonPool-worker-1 c.e.ecommerce.service.ProductService : Searching products with query: Small
+2025-08-05 19:12:46.424  INFO ForkJoinPool.commonPool-worker-2 c.e.ecommerce.service.ProductService : Fetching products by category: Automotive
+2025-08-05 19:12:46.538  INFO ForkJoinPool.commonPool-worker-1 c.e.ecommerce.service.ProductService : Fetching product with id: 13
+2025-08-05 19:12:46.547  INFO ForkJoinPool.commonPool-worker-5 c.e.ecommerce.service.ProductService : Fetching products by category: Home & Garden
+2025-08-05 19:12:46.564  INFO ForkJoinPool.commonPool-worker-7 c.e.ecommerce.service.ProductService : Fetching all products
+2025-08-05 19:12:46.566  INFO ForkJoinPool.commonPool-worker-2 c.e.ecommerce.service.ProductService : Fetching product with id: 24
+2025-08-05 19:12:46.662  INFO ForkJoinPool.commonPool-worker-6 c.e.ecommerce.service.ProductService : Fetching product with id: 7
+2025-08-05 19:12:46.985  INFO ForkJoinPool.commonPool-worker-6 c.e.ecommerce.service.ProductService : Fetching product with id: 21
+2025-08-05 19:12:46.987  INFO ForkJoinPool.commonPool-worker-1 c.e.ecommerce.service.OrderService : Creating order for customer: winston.gaylord@hotmail.com - Product: 18 - Quantity: 1
+2025-08-05 19:12:46.987  INFO ForkJoinPool.commonPool-worker-1 c.e.ecommerce.service.ProductService : Fetching product with id: 18
+2025-08-05 19:12:46.992  INFO ForkJoinPool.commonPool-worker-1 c.e.ecommerce.service.ProductService : Updating stock for product 18: new stock = 63
+2025-08-05 19:12:46.998  INFO ForkJoinPool.commonPool-worker-1 c.e.ecommerce.service.OrderService : Order created successfully: 2
+2025-08-05 19:12:48.291  INFO http-nio-8080-exec-5 c.e.e.service.DataGeneratorService : Simulating 5 errors...
+2025-08-05 19:12:48.294 ERROR ForkJoinPool.commonPool-worker-7 c.e.e.service.DataGeneratorService : Network connection refused to payment gateway
+2025-08-05 19:12:48.294 ERROR ForkJoinPool.commonPool-worker-4 c.e.e.service.DataGeneratorService : Payment gateway error: card declined
+2025-08-05 19:12:48.294 ERROR ForkJoinPool.commonPool-worker-6 c.e.e.service.DataGeneratorService : Payment gateway error: card declined
+2025-08-05 19:12:48.294 ERROR ForkJoinPool.commonPool-worker-1 c.e.e.service.DataGeneratorService : OutOfMemoryError: Java heap space
+2025-08-05 19:12:48.294 ERROR ForkJoinPool.commonPool-worker-2 c.e.e.service.DataGeneratorService : Database timeout occurred during product query
+2025-08-05 19:12:48.317  INFO http-nio-8080-exec-7 c.e.ecommerce.service.ProductService : Fetching all products
+2025-08-05 19:12:48.428  INFO http-nio-8080-exec-8 c.e.ecommerce.service.ProductService : Searching products with query: laptop
+2025-08-05 19:12:48.473  INFO http-nio-8080-exec-10 c.e.ecommerce.service.ProductService : Fetching products by category: Electronics
+2025-08-05 19:12:48.577  INFO http-nio-8080-exec-2 c.e.ecommerce.service.OrderService : Creating order for customer: test@example.com - Product: 1 - Quantity: 2
+2025-08-05 19:12:48.578  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Fetching product with id: 1
+2025-08-05 19:12:48.587  INFO http-nio-8080-exec-2 c.e.ecommerce.service.ProductService : Updating stock for product 1: new stock = 37
+2025-08-05 19:12:48.594  INFO http-nio-8080-exec-2 c.e.ecommerce.service.OrderService : Order created successfully: 3
+2025-08-05 19:29:58.717  INFO SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2025-08-05 19:29:58.722  INFO SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.

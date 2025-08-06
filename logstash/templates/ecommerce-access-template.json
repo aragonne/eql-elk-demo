@@ -1,0 +1,16 @@
+{
+  "index_patterns": ["ecommerce_access-*"],
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "properties": {
+      "@timestamp": { "type": "date" },
+      "clientip": { "type": "ip" },
+      "response": { "type": "integer" },
+      "bytes": { "type": "integer" },
+      "geoip.location": { "type": "geo_point" }
+    }
+  }
+}

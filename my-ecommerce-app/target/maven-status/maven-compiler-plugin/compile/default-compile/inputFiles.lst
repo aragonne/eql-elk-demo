@@ -1,0 +1,11 @@
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/service/OrderService.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/service/DataGeneratorService.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/EcommerceElkDemoApplication.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/service/ProductService.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/controller/ProductController.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/model/Order.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/controller/OrderController.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/model/Product.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/repository/OrderRepository.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/controller/DemoController.java
+/home/ael/Documents/HenixDev/forge-squash/formation/observability-presentation/08_ELK_stack_app/my-ecommerce-app/src/main/java/com/example/ecommerce/repository/ProductRepository.java

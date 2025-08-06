@@ -1,0 +1,17 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+
+# Disable security completely for simple POC
+xpack.security.enabled: false
+xpack.security.authc.api_key.enabled: false
+xpack.license.self_generated.type: basic
+xpack.monitoring.collection.enabled: true
+
+# Memory settings
+bootstrap.memory_lock: false
+
+# Discovery settings for single node
+discovery.type: single-node
+
+# Index settings
+action.auto_create_index: true

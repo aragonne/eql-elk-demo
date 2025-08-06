@@ -1,0 +1,81 @@
+[
+  {
+    "timestamp": "2024-01-15T10:30:00.123Z",
+    "level": "INFO",
+    "logger": "ACCESS_LOGGER",
+    "message": "GET /api/products - 200 - 45ms - 25 products returned",
+    "log_type": "access",
+    "application": "ecommerce-demo",
+    "environment": "development",
+    "method": "GET",
+    "endpoint": "/api/products",
+    "status_code": 200,
+    "response_time_ms": 45,
+    "client_ip": "192.168.1.100"
+  },
+  {
+    "timestamp": "2024-01-15T10:31:15.456Z",
+    "level": "INFO",
+    "logger": "BUSINESS_LOGGER",
+    "message": "{\"event_type\":\"order_created\",\"order_id\":1001,\"customer_email\":\"john.doe@example.com\",\"product_id\":5,\"quantity\":2,\"total_amount\":89.98,\"timestamp\":\"2024-01-15T10:31:15.456Z\"}",
+    "log_type": "business",
+    "application": "ecommerce-demo",
+    "environment": "development",
+    "event_type": "order_created",
+    "order_id": 1001,
+    "customer_email": "john.doe@example.com",
+    "product_id": 5,
+    "quantity": 2,
+    "total_amount": 89.98
+  },
+  {
+    "timestamp": "2024-01-15T10:32:30.789Z",
+    "level": "ERROR",
+    "logger": "ERROR_LOGGER",
+    "message": "{\"event_type\":\"payment_failed\",\"order_id\":1002,\"payment_method\":\"CREDIT_CARD\",\"amount\":156.50,\"reason\":\"payment_declined\",\"timestamp\":\"2024-01-15T10:32:30.789Z\"}",
+    "log_type": "error",
+    "application": "ecommerce-demo",
+    "environment": "development",
+    "event_type": "payment_failed",
+    "order_id": 1002,
+    "payment_method": "CREDIT_CARD",
+    "amount": 156.50,
+    "reason": "payment_declined"
+  },
+  {
+    "timestamp": "2024-01-15T10:33:45.012Z",
+    "level": "WARN",
+    "logger": "com.example.ecommerce.service.ProductService",
+    "message": "Product not found with id: 999",
+    "log_type": "application",
+    "application": "ecommerce-demo",
+    "environment": "development",
+    "product_id": 999,
+    "error_type": "not_found"
+  },
+  {
+    "timestamp": "2024-01-15T10:34:20.345Z",
+    "level": "INFO",
+    "logger": "BUSINESS_LOGGER",
+    "message": "{\"event_type\":\"product_search\",\"query\":\"laptop\",\"results_count\":8,\"timestamp\":\"2024-01-15T10:34:20.345Z\"}",
+    "log_type": "business",
+    "application": "ecommerce-demo",
+    "environment": "development",
+    "event_type": "product_search",
+    "query": "laptop",
+    "results_count": 8
+  },
+  {
+    "timestamp": "2024-01-15T10:35:10.678Z",
+    "level": "ERROR",
+    "logger": "ERROR_LOGGER",
+    "message": "{\"event_type\":\"database_error\",\"error_type\":\"timeout\",\"query\":\"SELECT * FROM products\",\"duration_ms\":15000,\"timestamp\":\"2024-01-15T10:35:10.678Z\"}",
+    "log_type": "error",
+    "application": "ecommerce-demo",
+    "environment": "development",
+    "event_type": "database_error",
+    "error_type": "timeout",
+    "query": "SELECT * FROM products",
+    "duration_ms": 15000
+  }
+]
