@@ -1,23 +1,3 @@
-# 08 - ELK Stack Application
-
-## Goal
-
-Learn how to use the ELK stack (Elasticsearch, Logstash, Kibana) to collect, analyze, and visualize logs from a Spring Boot application.
-
-## Scenario
-
-A simple e-commerce application that generates different types of logs:
-
-- **Access logs**: HTTP requests, response times
-- **Error logs**: exceptions, system errors
-- **Business logs**: orders, payments, user actions
-
-## Architecture
-
-```
-Spring Boot App → Logstash → Elasticsearch → Kibana
-```
-
 # Exercise: Application Observability with the ELK Stack
 
 This guide walks you step by step through installing, configuring, and using an ELK stack (Elasticsearch, Logstash, Kibana, Filebeat) to centralize and visualize logs from a Spring Boot application.
@@ -105,11 +85,13 @@ In Kibana, go to **Kibana > Dev Tools** and explore the data.
 ### Example queries
 
 #### List all indices
+
 ```json
 GET _cat/indices?v
 ```
 
 #### Search for all logs
+
 ```json
 GET logs-*/_search
 {
@@ -121,6 +103,7 @@ GET logs-*/_search
 ```
 
 #### Search for error logs
+
 ```json
 GET logs-*/_search
 {
@@ -134,6 +117,7 @@ GET logs-*/_search
 ```
 
 #### Aggregate logs per log level
+
 ```json
 GET logs-*/_search
 {
@@ -149,6 +133,7 @@ GET logs-*/_search
 ```
 
 #### Search logs for a specific user
+
 ```json
 GET logs-*/_search
 {
